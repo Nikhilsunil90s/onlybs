@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+        <title>Wireframe Designs - BootStrap</title>
+        <meta content="Admin Dashboard" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <link rel="stylesheet" href="public/plugins/chartist/css/chartist.min.css">
+        <link rel="stylesheet" href="public/assets/css/pages/category.css">
+        <link rel="shortcut icon" href="public/assets/images/favicon.ico">
+        <link href="public/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="public/assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
+        <link href="public/assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="public/assets/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <div id="wrapper">
+        <!-- <% include ./Partials/adminHeader  %> -->
+        <div class="topbar">
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="index" class="logo">
+                </a>
+            </div>
+        
+            <nav class="navbar-custom">
+                <ul class="navbar-right d-flex list-inline float-right mb-0">
+                    <li class="dropdown notification-list d-none d-md-block">
+                    </li>
+                <!-- full screen -->
+            <li class="dropdown notification-list d-none d-md-block">
+                <a class="nav-link waves-effect" href="#" id="btn-fullscreen">
+                    <i class="mdi mdi-fullscreen noti-icon"></i>
+                </a>
+            </li>
+
+           
+        </ul>
+        <ul class="list-inline menu-left mb-0">
+            <li class="float-left">
+                <button class="button-menu-mobile open-left waves-effect">
+                    <i class="mdi mdi-menu"></i>
+                </button>
+            </li>
+           
+        </ul>
+            </nav>
+        </div>
+        <!-- <% include ./Partials/Sidebar  %> -->
+           <!-- ========== Left Sidebar Start ========== -->
+   <div class="left side-menu">
+    <div class="slimscroll-menu" id="remove-scroll">
+
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu" id="side-menu">
+                <li class="menu-title">Main</li>
+                <li>
+                    <a href="configuration.html" class="waves-effect">
+                        <i class="ti-home"></i> <span> Configuration </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="category-mapping.html" class="waves-effect"><i class="ti-list"></i><span> Category Mapping </span></a>
+                </li>
+
+                <li>
+                    <a href="item-control.html" class="waves-effect"><i class="ti-settings"></i><span> Item Control </span></a>
+                </li>
+
+                <li>
+                    <a href="synchronization.html" class="waves-effect"><i class="ti-reload"></i><span> Synchronization </span></a>
+                </li> 
+            </ul>
+
+        </div>
+    </div>
+    <!-- Sidebar -left -->
+
+</div>
+<!-- Left Sidebar End -->
+        <div class="content-page">
+            <!-- Start content -->
+            <div class="content">
+                <div class="container-fluid">
+                  
+                   <!-- <% include ./Partials/Settings  %> -->
+                     
+                <div class="page-title-box">
+                    <div class="row align-items-center">
+
+                        <div class="col-sm-6">
+                            <h4 class="page-title">Category Mapping</h4>
+                                
+                        </div>
+
+        <!-- <div class="col-sm-6">
+            <h4 class="page-title">Calendar</h4>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0);">Veltrix</a></li>
+                <li class="breadcrumb-item active">Calendar</li>
+            </ol>
+        </div> -->
+
+        <div class="col-sm-6">
+            <!-- <div class="float-right d-none d-md-block">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle arrow-none waves-effect waves-light" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="mdi mdi-settings mr-2"></i> Settings
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>                 
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<div class="row category h-100">
+    <div class="col-6 font-weight-bolder">
+        Magento
+    </div>
+    <div class="col-6 font-weight-bolder">
+        Arcadier
+    </div>
+
+    <div class="col-6 p-0 mt-2">
+        <ul class="nav flex-column" role="tablist">
+            <li class="nav-item ">
+              <a class="nav-link active" data-toggle="tab" href="#a">A</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" data-toggle="tab" href="#b">B</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#c">C</a>
+            </li>
+          </ul>
+    </div>
+    <div class="col-6 p-0 tab-content-box mt-2">
+        <div class="tab-content">
+            <div id="a" class="container tab-pane active">
+                <div class="custom-control custom-checkbox mt-3 mb-3">
+                    <input type="checkbox" class="custom-control-input" id="m1" name="m1">
+                    <label class="custom-control-label" for="m1">M</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="n1" name="n1">
+                    <label class="custom-control-label" for="n1">N</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="o1" name="o1">
+                    <label class="custom-control-label" for="o1">O</label>
+                  </div>
+            </div>
+            <div id="b" class="container tab-pane fade">
+                <div class="custom-control custom-checkbox mt-3 mb-3">
+                    <input type="checkbox" class="custom-control-input" id="m2" name="m">
+                    <label class="custom-control-label" for="m2">M</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="n2" name="n">
+                    <label class="custom-control-label" for="n2">N</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="o2" name="o">
+                    <label class="custom-control-label" for="o2">O</label>
+                  </div>
+            </div>
+            <div id="c" class="container tab-pane fade">
+                <div class="custom-control custom-checkbox mt-3 mb-3">
+                    <input type="checkbox" class="custom-control-input" id="m3" name="m">
+                    <label class="custom-control-label" for="m3">M</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="n3" name="n">
+                    <label class="custom-control-label" for="n3">N</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="o3" name="o">
+                    <label class="custom-control-label" for="o3">O</label>
+                  </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+<footer class="footer text-center">
+    © 2021.
+</footer>
+<script src="public/assets/js/jquery.min.js"></script>
+<script src="public/assets/js/bootstrap.bundle.min.js"></script>
+<script src="public/assets/js/metisMenu.min.js"></script>
+<script src="public/assets/js/jquery.slimscroll.js"></script>
+<script src="public/assets/js/waves.min.js"></script>
+<script src="public/assets/js/app.js"></script>
+<script>
+    function clearAll(){
+        document.getElementById('usr').value = '';
+        document.getElementById('pwd').value = '';
+        document.getElementById('endpoint').value = '';
+        document.getElementById('myDate').value = '';
+    } 
+    function butonPerform(){
+        if(Math.floor(Math.random() * 10) > 5){
+            console.log(Math.floor(Math.random() * 10));
+            $("#testSuccess").css('display' , 'block');
+            $("testFail").css('display' , 'none');
+            myFunction();
+        }
+        else{
+            console.log('Lesser Than 5');
+            $("#testSuccess").css('display' , 'none');
+            $("testFail").css('display' , 'block');
+        }
+    };
+
+    function myFunction() {
+      const x = new Date();
+      console.log(x);
+      console.log(x.getDate() , x.getMonth() , x.getFullYear());
+      document.getElementById("myDate").value =  (x.getDate()).toString() + "-" + (x.getMonth() + 1).toString() + '-' + (x.getFullYear()).toString();
+    };
+    function deleteIt(){
+
+    };
+
+</script>
+ <script src="public/assets/pages/dashboard.js"></script>
+</div>
+</div>
+<!-- <% include ./Partials/FooterScript  %> -->
+<!-- <%- FooterJs %> -->
+<!-- App js -->
+<!-- <script src="public/assets/js/app.js"></script> -->
+<!-- <%- BottomJs %> -->
+<script src="public/assets/js/jquery.min.js"></script>
+<script src="public/assets/js/bootstrap.bundle.min.js"></script>
+<script src="public/assets/js/metisMenu.min.js"></script>
+<script src="public/assets/js/jquery.slimscroll.js"></script>
+<script src="public/assets/js/waves.min.js"></script>
+
+<!-- countdown -->
+<script src="public/plugins/countdown/jquery.countdown.min.js"></script>
+<script src="public/assets/pages/countdown.int.js"></script>
+<!-- App js -->
+<script src="public/assets/js/app.js"></script>
+
+</body>
+</html>

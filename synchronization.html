@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+        <title>Wireframe Designs - BootStrap</title>
+        <meta content="Admin Dashboard" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <link rel="stylesheet" href="public/plugins/chartist/css/chartist.min.css">
+        <link rel="shortcut icon" href="public/assets/images/favicon.ico">
+        <link href="public/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="public/assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
+        <link href="public/assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="public/assets/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <div id="wrapper">
+        <!-- <% include ./Partials/adminHeader  %> -->
+        <div class="topbar">
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="index" class="logo">
+                </a>
+            </div>
+        
+            <nav class="navbar-custom">
+                <ul class="navbar-right d-flex list-inline float-right mb-0">
+                    <li class="dropdown notification-list d-none d-md-block">
+                    </li>
+                <!-- full screen -->
+            <li class="dropdown notification-list d-none d-md-block">
+                <a class="nav-link waves-effect" href="#" id="btn-fullscreen">
+                    <i class="mdi mdi-fullscreen noti-icon"></i>
+                </a>
+            </li>
+
+           
+        </ul>
+        <ul class="list-inline menu-left mb-0">
+            <li class="float-left">
+                <button class="button-menu-mobile open-left waves-effect">
+                    <i class="mdi mdi-menu"></i>
+                </button>
+            </li>
+           
+        </ul>
+            </nav>
+        </div>
+        <!-- <% include ./Partials/Sidebar  %> -->
+           <!-- ========== Left Sidebar Start ========== -->
+   <div class="left side-menu">
+    <div class="slimscroll-menu" id="remove-scroll">
+
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu" id="side-menu">
+                <li class="menu-title">Main</li>
+                <li>
+                    <a href="configuration.html" class="waves-effect">
+                        <i class="ti-home"></i> <span> Configuration </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="category-mapping.html" class="waves-effect"><i class="ti-list"></i><span> Category Mapping </span></a>
+                </li>
+
+                <li>
+                    <a href="item-control.html" class="waves-effect"><i class="ti-settings"></i><span> Item Control </span></a>
+                </li>
+
+                <li>
+                    <a href="synchronization.html" class="waves-effect"><i class="ti-reload"></i><span> Synchronization </span></a>
+                </li> 
+            </ul>
+
+        </div>
+    </div>
+    <!-- Sidebar -left -->
+
+</div>
+<!-- Left Sidebar End -->
+        <div class="content-page">
+            <!-- Start content -->
+            <div class="content">
+                <div class="container-fluid">
+                  
+                   <!-- <% include ./Partials/Settings  %> -->
+                     
+                <div class="page-title-box">
+                    <div class="row align-items-center">
+
+                        <div class="col-sm-6">
+                            <h4 class="page-title">Synchronization</h4>   
+                    </div>
+
+        <!-- <div class="col-sm-6">
+            <h4 class="page-title">Calendar</h4>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0);">Veltrix</a></li>
+                <li class="breadcrumb-item active">Calendar</li>
+            </ol>
+        </div> -->
+
+        <div class="col-sm-6">
+            <!-- <div class="float-right d-none d-md-block">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle arrow-none waves-effect waves-light" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="mdi mdi-settings mr-2"></i> Settings
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>                 
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+<!-- end row -->
+<div class="row">
+    <div class="col-12 mb-2">
+        <span class="font-weight-bolder mr-4">Status</span>
+        <span class="font-weight-bolder text-success mr-2">Ok</span>
+    </div>
+    <div class="col-12 mb-2">
+        <span class="font-weight-bolder mr-4">Status</span>
+        <span class="font-weight-bolder text-danger mr-2">Error</span>
+    </div>
+    <div class="col-12 mb-2">
+        <span class="font-weight-bolder mr-4">Status</span>
+        <span class="font-weight-bolder "> -</span>
+    </div>
+    <div class="col-12 bg-white p-2 mb-2 rounded shadow">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Date Time</th>
+                        <th>Type</th>
+                        <th>Trigger</th>
+                        <th>Created</th>
+                        <th>Unchanged</th>
+                        <th>Changed</th>
+                        <th>Deleted</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>20-03-2021</td>
+                        <td>Item</td>
+                        <td>
+                            Manual
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            Pending
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>20-03-2021</td>
+                        <td>Order</td>
+                        <td>
+                            Fast
+                        </td>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            In Progress
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>20-03-2021</td>
+                        <td>Item</td>
+                        <td>
+                            Slow
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            Completed
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>20-03-2021</td>
+                        <td>Item</td>
+                        <td>
+                            Manual
+                        </td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            In Progress
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>20-03-2021</td>
+                        <td>Order</td>
+                        <td>
+                            Triggered
+                        </td>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            Completed
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    
+    <div class="col-12 mb-2 bg-white p-3 rounded shadow">
+        <div class="mb-2">
+            <span class="font-weight-bolder">Mode</span>
+        </div>
+        <div class="row pl-2">
+            <div class="col-12 col-md-8 mb-3 bg-light p-2 rounded">
+                <div class="row w-100">
+                    <div class="col-1">
+                        <div class="custom-control custom-radio text-center mt-3" >
+                            <input type="radio" class="custom-control-input" id="ma" name="mode" value="true" checked>
+                            <label class="custom-control-label" for="ma"></label>
+                          </div>  
+                    </div>
+
+                    <div class="col-2">
+                        <div class="mb-2">
+                            <span class="font-weight-bolder">Items:</span>
+                        </div>
+                        <div class="mb-2">
+                            <span class="font-weight-bolder">Orders:</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="mb-2">
+                            <span class="font-weight-bolder">Magento -> Arcadier</span>
+                        </div>
+                        <div class="mb-2">
+                            <span class="font-weight-bolder"> Arcadier -> Magento </span>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="col-12 col-md-8 bg-light p-2 rounded">
+                <div class="row w-100">
+                    <div class="col-1">
+                        <div class="custom-control custom-radio text-center mt-3" >
+                            <input type="radio" class="custom-control-input" id="am" name="mode" value="true">
+                            <label class="custom-control-label" for="am"></label>
+                          </div>  
+                    </div>
+                    <div class="col-2">
+                        <div class="mb-2">
+                            <span class="font-weight-bolder">Items:</span>
+                        </div>
+                        <div class="mb-2">
+                            <span class="font-weight-bolder">Orders:</span>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="mb-2">
+                            <span class="font-weight-bolder"> Arcadier -> Magento </span>
+                        </div>
+                        <div class="mb-2">
+                            <span class="font-weight-bolder"> Magento -> Arcadier </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="col-12 mb-2 bg-white p-3 rounded shadow">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#menu">Manual</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#event">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#fast">Fast</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#slow">Slow</a>
+              </li>
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane container active" id="menu">
+                <div class="row p-3 ">
+                    <div class="col-6">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="data" name="data">
+                            <label class="custom-control-label" for="data">Orders</label>
+                          </div>
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="items" name="items">
+                            <label class="custom-control-label" for="items">Items</label>
+                          </div>
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="category" name="category">
+                            <label class="custom-control-label" for="category">Categories</label>
+                          </div>
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="qty" name="qty">
+                            <label class="custom-control-label" for="qty">Quantity</label>
+                          </div>
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="beta" name="beta">
+                            <label class="custom-control-label" for="beta">Details</label>
+                          </div>
+
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="price" name="price">
+                            <label class="custom-control-label" for="price">Prices</label>
+                          </div>
+                    </div>
+                    <div class="col-6 justify-content-center mx-auto text-center">
+                        <button class="btn btn-primary mt-5">Run Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="event">
+                <div class="row p-3">
+                    <div class="col-6">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="data2" name="data">
+                            <label class="custom-control-label" for="data2">Orders</label>
+                          </div>
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="items2" name="items">
+                            <label class="custom-control-label" for="items2">Items</label>
+                          </div>
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="category2" name="category">
+                            <label class="custom-control-label" for="category2">Categories</label>
+                          </div>
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="qty2" name="qty">
+                            <label class="custom-control-label" for="qty2">Quantity</label>
+                          </div>
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="beta2" name="beta">
+                            <label class="custom-control-label" for="beta2">Details</label>
+                          </div>
+
+
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="price2" name="price">
+                            <label class="custom-control-label" for="price2">Prices</label>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="fast">
+                <div class="row p-3">
+                    <div class="col-6">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="data3" name="data">
+                            <label class="custom-control-label" for="data3">Orders</label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="qty3" name="qty">
+                            <label class="custom-control-label" for="qty3">Quantity</label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="price3" name="price">
+                            <label class="custom-control-label" for="price3">Prices</label>
+                          </div>
+                    </div>
+                    <div class="col-6 justify-content-center mx-auto text-center">
+                        <!-- <button class="btn btn-primary mt-5">Run Now</button> -->
+                        Every <input type="text" style="width: 35px; border-radius: 5px;" placeholder="5" name="slowinput"> Minutes
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="slow">
+                <div class="row p-3">
+                    <div class="col-6">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="data4" name="data">
+                            <label class="custom-control-label" for="data4">Orders</label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="qty4" name="qty">
+                            <label class="custom-control-label" for="qty4">Quantity</label>
+                          </div>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="price4" name="price">
+                            <label class="custom-control-label" for="price4">Prices</label>
+                          </div>
+                    </div>
+                    <div class="col-6 justify-content-center mx-auto text-center">
+                        <!-- <button class="btn btn-primary mt-5">Run Now</button> -->
+                        Every <input type="text" style="width: 35px; border-radius: 5px;" placeholder="120" name="slowinput"> Minutes
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+<!-- end row -->
+<footer class="footer text-center">
+    © 2021.
+</footer>
+<script src="public/assets/js/jquery.min.js"></script>
+<script src="public/assets/js/bootstrap.bundle.min.js"></script>
+<script src="public/assets/js/metisMenu.min.js"></script>
+<script src="public/assets/js/jquery.slimscroll.js"></script>
+<script src="public/assets/js/waves.min.js"></script>
+<script src="public/assets/js/app.js"></script>
+<script src="public/assets/pages/dashboard.js"></script>
+<script src="public/assets/js/jquery.min.js"></script>
+<script src="public/assets/js/bootstrap.bundle.min.js"></script>
+<script src="public/assets/js/metisMenu.min.js"></script>
+<script src="public/assets/js/jquery.slimscroll.js"></script>
+<script src="public/assets/js/waves.min.js"></script>
+
+<!-- countdown -->
+<script src="public/plugins/countdown/jquery.countdown.min.js"></script>
+<script src="public/assets/pages/countdown.int.js"></script>
+<!-- App js -->
+<script src="public/assets/js/app.js"></script>
+
+</body>
+</html>
